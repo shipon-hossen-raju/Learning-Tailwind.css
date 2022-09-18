@@ -1,0 +1,18 @@
+Learning Tailwind Css : 
+ setUp : 
+  1.01 => git init // git initilize
+  1.02 => npm init --y // Node initilize
+  1.03 => npm i -D tailwindcss // tailwindcss instalation
+  1.04 => npx tailwindcss init // Configration file 
+
+ Extension :
+  2.01 => Tailwind CSS IntelliSense
+
+ file system : 
+  3.01 => .vscode/settings.json // vscode editor Configration
+    >{
+      "css.validate": false,
+      "tailwindcss.emmetCompletions": true
+    }
+  3.02 => package.json > script > 
+    "build": "tailwind -i ./src/tailwind.css -o ./output/tailwind.css -w"
